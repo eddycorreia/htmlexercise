@@ -1,0 +1,8 @@
+Criar uma página HTML básica:
+Crie uma página HTML com um cabeçalho, um parágrafo e uma imagem. Certifique-se de usar a tag <!DOCTYPE html> no início do arquivo e de incluir um título para a página.
+
+Criar uma lista de itens:
+Crie uma lista de itens com pelo menos cinco itens usando a tag <ul>. Cada item deve ter um texto descritivo e, se possível, uma imagem. Certifique-se de usar a tag <li> para cada item da lista.
+
+Criar um formulário de contato:
+Crie um formulário de contato simples que solicite o nome, endereço de e-mail e uma mensagem do usuário. Certifique-se de usar a tag <form> para envolver todo o formulário e inclua as tags <input> para coletar as informações do usuário. Também adicione um botão de envio para o formulário usando a tag <button>.
