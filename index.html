@@ -41,20 +41,27 @@
     </ul>
 
     <form id="Contato" action="" method="">
-      <button>Enviar</button>
+      <button type="submit">Enviar</button>
+      <button type="reset">Limpar</button>
       <fieldset name="input-contacts">
         <legend>Contato</legend>
         <label for="">Nome: </label>
-        <input type="string" />
+        <input type="string" value="" />
         <br />
         <br />
         <label for="">Endereço: </label>
-        <input type="string" />
+        <input type="string" value="" />
         <br />
         <br />
         <label for="">E-mail: </label>
-        <input type="string" />
+        <input type="string" value="" />
       </fieldset>
+      <input type="text" list="entrega" placeholder="Onde enviar as Compras?" />
+      <datalist id="entrega">
+        <option>Casa</option>
+        <option>Trabalho</option>
+        <option>Outro Endereço</option>
+      </datalist>
     </form>
   </body>
 </html>
